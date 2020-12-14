@@ -1,0 +1,6 @@
+random api notes
+
+                 #print(user.mentioned_in(message))
+                    #print(ctx.message.raw_mentions) #this returns the mentions ID.
+                    #print(ctx.message.guild.name) # Returns the guild that user used the command in. Should also add a timestamp when this is put in a database. So they can only change guild every 48hrs
+                    #print("\n".join([x.name for x in role.members])) #LIST OF ALL THE USERS IN A ROLE   
